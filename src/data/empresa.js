@@ -1,3 +1,4 @@
+
 export const empresa = {
   nome: "TED System",
   slogan: "Tecnologia que evolui com o seu negócio.",
@@ -55,6 +56,13 @@ export const empresa = {
       foto: "/images/amy.jpg",
       alt: "Foto de Amy Farrah Fowler",
       descricao: "Responsável por estruturar e proteger os bancos de dados dos clientes."
+    },
+    {
+      nome: "Enzo",
+      cargo: "Desenvolvedor de Software",
+      foto: "/images/Enzo.jpg",
+      alt: "Foto de Enzo",
+      descricao: "Responsável por contribuir com ideias criativas, auxiliar no desenvolvimento de projetos e colaborar com a equipe na criação de soluções tecnológicas, demonstrando comprometimento, responsabilidade e dedicação."
     }
   ]
 };

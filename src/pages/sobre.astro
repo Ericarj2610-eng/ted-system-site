@@ -1,3 +1,4 @@
+
 ---
 import LayoutBase from '../layouts/LayoutBase.astro';
 import Cartao from '../components/Cartao.astro';
@@ -39,6 +40,11 @@ import { empresa } from '../data/empresa.js';
 						<p>{valor.descricao}</p>
 					</Cartao>
 				))}
+
+				<Cartao destaque={true}>
+					<h3>Foco no cliente</h3>
+					<p>Colocar nossos clientes no centro de tudo, oferecendo atendimento personalizado, suporte de qualidade e soluções que atendam às suas necessidades.</p>
+				</Cartao>
 			</div>
 		</div>
 	</section>
